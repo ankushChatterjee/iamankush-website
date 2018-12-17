@@ -16,10 +16,10 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `Ankush Chatterjee`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'ankush-chatterjee',
+        short_name: 'iamankush',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#1e90ff',
