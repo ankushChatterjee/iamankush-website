@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #353b48;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-item {
+    color:#f1f2f6;
+    cursor: pointer;
+}
+
+
+.hover-green:hover {
+    color:#2ed573;
+}
+
+.hover-red:hover {
+    color:#ff4757;
+}
+
+.hover-blue:hover {
+    color:#6a89cc;
+}
+
+.hover-yellow:hover {
+    color:#eccc68;
+}
+
+.hover-teal:hover {
+    color:#38ada9;
+}
+
+
+@keyframes blip {
+    0%{
+        opacity: 0;
+    }
+    49%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
