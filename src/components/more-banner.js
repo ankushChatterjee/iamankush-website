@@ -27,9 +27,12 @@ export default function MoreBanner({ transform }) {
                 <ColoredText color="#ff6348">Education:</ColoredText> B Tech in Information Technology <br />
                 <ColoredText color="#ff6348">Programming Languages:</ColoredText> Java,JavaScript,C/C++,Python<br />
                 <ColoredText color="#ff6348">Skills:</ColoredText> Full Stack Web Development, Android Development,
-                                                            Data Structures and Algorithms, Core Computer Science<br/>
-                <ColoredText color="#1e90ff">I love solving problems and build fast software experiences</ColoredText><br/>
-                <a style={{color:'#fff'}} href="https://www.visualcv.com/ankush-chatterjee/pdf">Click here for my Resume</a>
+                                                            Data Structures and Algorithms, Core Computer Science<br />
+                <ColoredText color="#1e90ff">I love solving problems and build fast software experiences</ColoredText><br />
+                <a style={{ color: '#fff' }} href="https://www.visualcv.com/ankush-chatterjee/pdf">Click here for my Resume</a><br />
+                <a style={{
+                    color: '#fff'
+                }} href="mailto://ac.ankush15@gmail.com">EMail Me @ ac.ankush15@gmail.com</a>
             </div>
 
 

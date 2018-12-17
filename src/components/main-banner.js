@@ -19,11 +19,11 @@ const MainBanner = ({ transform }) => (
 
 
     <div css={{
-      fontSize: '3em',
+      fontSize: '4em',
       lineHeight: '1.5em',
       padding:'0.5em',
      '@media screen and (max-width: 450px)': {
-         //fontSize: '1.5em',
+         fontSize: '3em',
          marginBottom:'20%'
        }
     }}>
