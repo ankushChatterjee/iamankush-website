@@ -16,9 +16,9 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
-      resolve: `Ankush Chatterjee`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'ankush-chatterjee',
+        name: 'Ankush Chatterjee',
         short_name: 'iamankush',
         start_url: '/',
         background_color: '#fff',
