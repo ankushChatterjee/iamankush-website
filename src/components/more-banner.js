@@ -32,7 +32,7 @@ export default function MoreBanner({ transform }) {
                 <a style={{ color: '#fff' }} href="https://www.visualcv.com/ankush-chatterjee/pdf">Click here for my Resume</a><br />
                 <a style={{
                     color: '#fff'
-                }} href="mailto://ac.ankush15@gmail.com">EMail Me @ ac.ankush15@gmail.com</a>
+                }} href="mailto:ac.ankush15@gmail.com">EMail Me @ ac.ankush15@gmail.com</a>
             </div>
 
 
