@@ -24,12 +24,13 @@ export default function MoreBanner({ transform }) {
                     marginBottom: '20%'
                 }
             }}>
+                <ColoredText color="#ff6348">Currently:</ColoredText> Software Engg. Intern @ <a href="https://www.informatica.com/">Informatica</a><br />
                 <ColoredText color="#ff6348">Education:</ColoredText> B Tech in Information Technology <br />
                 <ColoredText color="#ff6348">Programming Languages:</ColoredText> Java,JavaScript,C/C++,Python<br />
-                <ColoredText color="#ff6348">Skills:</ColoredText> Full Stack Web Development, Android Development,
+                <ColoredText color="#ff6348">Skills:</ColoredText> Full Stack Web Development,
                                                             Data Structures and Algorithms, Core Computer Science<br />
                 <ColoredText color="#1e90ff">I love solving problems and build fast software experiences</ColoredText><br />
-                <a style={{ color: '#fff' }} href="https://www.visualcv.com/ankush-chatterjee/pdf">Click here for my Resume</a><br />
+                <a style={{ color: '#fff' }} href="https://drive.google.com/open?id=10BwzLptSiRBIGw58BJKVn_KEiiFQWba_">Click here for my Resume</a><br />
                 <a style={{
                     color: '#fff'
                 }} href="mailto:ac.ankush15@gmail.com">EMail Me @ ac.ankush15@gmail.com</a>

@@ -4,7 +4,6 @@ import { graphql } from 'gatsby';
 import ThoughtBox from '../components/thought-box';
 import { Link } from 'gatsby'
 
-
 class RandomThoughtsPage extends React.Component {
   constructor(props){
     super();
