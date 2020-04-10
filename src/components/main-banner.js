@@ -1,20 +1,17 @@
 import React from 'react'
 
-import ColoredText from './colored-text'
 import FatCursor from './fat-cursor';
 
 
 const MainBanner = ({ transform }) => (
   <div style={{
-    height: '80vh',
+    height: '100vh',
     width: '100%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     color: '#f1f2f6',
-    transform: `translateY(${transform})`,
-    transition: 'transform 1s',
-    zIndex:1
+    zIndex:-1,
   }}>
 
 
@@ -24,11 +21,15 @@ const MainBanner = ({ transform }) => (
       padding:'0.5em',
      '@media screen and (max-width: 450px)': {
          fontSize: '3em',
-         marginBottom:'20%'
        }
     }}>
-      Hey, I am <ColoredText color="#ff6348">Ankush Chatterjee</ColoredText> <br />
-      I am a <ColoredText color="#1e90ff">Programmer</ColoredText><FatCursor color="#fff"></FatCursor>
+      Hey👋, I am <span style={{
+        fontWeight:'bold',
+        fontFamily:"'Shadows Into Light', cursive",
+        fontSize: '1.2em',
+        color:"#ffd32a"
+      }}>Ankush</span> <br />
+      I am a <span style={{fontWeight:'bold'}}>Programmer 💻</span><FatCursor color="#fff"></FatCursor>
     </div>
 
 

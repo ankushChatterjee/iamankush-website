@@ -1,18 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Ankush Chatterjee',
-    description: 'A cool Web Developer',
-    author: '@tweetsByAnkush',
+    description: 'Software Developer',
+    author: 'Ankush @tweetsByAnkush',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `thoughts`,
-        path: `${__dirname}/src/thoughts`,
-      },
-    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -30,7 +23,14 @@ module.exports = {
     },
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
-    'gatsby-plugin-glamor'
+    'gatsby-plugin-glamor',
+    {
+      resolve: 'gatsby-plugin-webpack-bundle-analyzer',
+      options: {
+        analyzerPort: 3005,
+        production: false,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
