@@ -15,18 +15,18 @@ export default function MoreBanner({ transform }) {
             fontSize: '2em',
             lineHeight: '1.5em'
         }}>
-                <AboutCard color="#ff6348" textColor="#e9e9e9" title="Currently 🏢">
+                <AboutCard color="#ff6348" textColor="#e9e9e9" title="🏢 Currently">
                     <span style={{color:'#fff', fontWeight:'bold'}}>Software Engg. Intern @ <a href="https://www.informatica.com/">Informatica</a></span>
                 </AboutCard>
-                <AboutCard color="#05c46b" textColor="#e9e9e9" title="Education 📚">
+                <AboutCard color="#05c46b" textColor="#e9e9e9" title="📚 Education">
                     <span style={{color:'#fff', fontWeight:'bold'}}>B Tech. in Information Technology</span>
                 </AboutCard>
-                <AboutCard color="#34495e" textColor="#e9e9e9" title="Programming Languages 👩‍💻">
+                <AboutCard color="#34495e" textColor="#e9e9e9" title="👩‍💻 Programming Languages">
                     <span style={{color:'#fff', fontWeight:'bold'}}>Java, JavaScript, C/C++, Python</span>
                 </AboutCard>
-                <AboutCard color="#574b90" textColor="#e9e9e9" title="Skills 🤹‍♀️">
+                <AboutCard color="#574b90" textColor="#e9e9e9" title="🤹‍♀️ Skills">
                     <span style={{color:'#fff', fontWeight:'bold'}}>Full Stack Web Development,
-                                                            Data Structures and Algorithms, Core Computer Scienc</span>
+                                                            Data Structures and Algorithms, Core Computer Science</span>
                 </AboutCard>
 
                 <div style={{
