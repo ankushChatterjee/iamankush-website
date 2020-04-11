@@ -33,7 +33,7 @@ export default function MoreBanner({ transform }) {
                     textAlign:'center',
                     color:'#485460', 
                     marginTop:'0.5em'
-                }}>I love solving problems and build fast software experiences</div>
+                }}>I love solving problems and building fast software experiences</div>
 
                 <div className="resume-mail" style={{
                     display:'flex',
@@ -46,7 +46,6 @@ export default function MoreBanner({ transform }) {
                     <a className="mail" style={{
                         color: '#0fb9b1'
                     }} href="mailto:hello@iamankush.me">✉ hello@iamankush.me</a>
-
                 </div>
 
                 
