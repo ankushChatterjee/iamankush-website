@@ -17,7 +17,7 @@ class IndexPage extends React.Component{
     return (
       <div>
 
-        <SEO title="Home" keywords={['gatsby', 'application', 'react','ankush','web developer']} />
+        <SEO title="Ankush Chaterjee Home" keywords={['gatsby', 'application', 'react','ankush','web developer']} />
         <Header />
         <MainBanner />
         <MoreBanner/>

@@ -15,12 +15,14 @@ export default function MoreBanner({ transform }) {
             fontSize: '2em',
             lineHeight: '1.5em'
         }}>
-                <AboutCard color="#ff6348" textColor="#e9e9e9" title="🏢 Currently">
-                    <span style={{color:'#fff', fontWeight:'bold'}}>Software Engg. Intern @ <a href="https://www.informatica.com/">Informatica</a></span>
+                <AboutCard color="#ff6348" textColor="#e9e9e9" title="🏢 Experience">
+                    <div style={{color:'#fff', fontWeight:'bold'}}>Associate Software Engg. @ <a style={{textColor:'#fff'}} href="https://www.informatica.com/">Informatica</a></div>
+                    <div style={{color:'#fff', fontWeight:'bold', fontSize:'0.7em'}}>Software Engg. Intern @ <a style={{textColor:'#fff'}}  href="https://www.informatica.com/">Informatica</a></div>
+                    <div style={{color:'#fff', fontWeight:'bold', fontSize:'0.7em'}}>JavaScript Developer Intern @ RJS Tech Solutions</div>
                 </AboutCard>
-                <AboutCard color="#05c46b" textColor="#e9e9e9" title="📚 Education">
+                {/*<AboutCard color="#05c46b" textColor="#e9e9e9" title="📚 Education">
                     <span style={{color:'#fff', fontWeight:'bold'}}>B Tech. in Information Technology</span>
-                </AboutCard>
+                </AboutCard> */}
                 <AboutCard color="#34495e" textColor="#e9e9e9" title="👩‍💻 Programming Languages">
                     <span style={{color:'#fff', fontWeight:'bold'}}>Java, JavaScript, C/C++, Python</span>
                 </AboutCard>
